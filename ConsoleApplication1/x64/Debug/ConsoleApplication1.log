@@ -1,0 +1,11 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\Admin\Desktop\ConsoleApplication1\ConsoleApplication1\Triangle.h(61,29): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\Admin\Desktop\ConsoleApplication1\ConsoleApplication1\Triangle.h(65,29): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\Admin\Desktop\ConsoleApplication1\ConsoleApplication1\Triangle.h(71,29): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\Admin\Desktop\ConsoleApplication1\ConsoleApplication1\RightTriangle.h(43,58): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\Admin\Desktop\ConsoleApplication1\ConsoleApplication1\RightTriangle.h(47,58): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\Admin\Desktop\ConsoleApplication1\ConsoleApplication1\RightTriangle.h(51,58): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\Admin\Desktop\ConsoleApplication1\ConsoleApplication1\RightTriangle.h(62,22): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\Admin\Desktop\ConsoleApplication1\ConsoleApplication1\RightTriangle.h(66,22): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\Admin\Desktop\ConsoleApplication1\ConsoleApplication1\RightTriangle.h(70,22): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  ConsoleApplication1.vcxproj -> C:\Users\Admin\Desktop\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
