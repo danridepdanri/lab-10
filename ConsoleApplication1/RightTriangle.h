@@ -3,7 +3,7 @@
 class RightTriangle : public Triangle {
 public: 
     double ugol_a, ugol_b, ugol_c;
-
+// Edited q
     RightTriangle() : Triangle(){
     storona_a = 0;
     storona_b = 0;
@@ -26,11 +26,11 @@ public:
         ugol_b = 180 / pi * ( asin((storona_b * sin((acos((storona_a * storona_a - storona_b * storona_b - storona_c * storona_c) / (-2 * storona_b * storona_c))))) / storona_a));
         ugol_c = 180 - (ugol_a+ugol_b);
         if (ugol_a == 90 or ugol_b == 90 or ugol_c == 90) {
-            cout << "Äà, ïðÿìîóãîëüíûé òðåóãîëüíèê." << endl;
+            cout << "Ã„Å•, ÄÄ‘Ë™Ä›Ã®Ã³ÄƒÃ®Ã«Ã¼Ã­Å±Ã© ÅˆÄ‘ÄºÃ³ÄƒÃ®Ã«Ã¼Ã­ÄÄ™." << endl;
             return true;
         }
         else {
-            cout << "Íåò, íå ïðÿìîóãîëüíûé òðåóãîëüíèê." << endl;
+            cout << "ÃÄºÅˆ, Ã­Äº ÄÄ‘Ë™Ä›Ã®Ã³ÄƒÃ®Ã«Ã¼Ã­Å±Ã© ÅˆÄ‘ÄºÃ³ÄƒÃ®Ã«Ã¼Ã­ÄÄ™." << endl;
         }
         return false;
 
@@ -41,15 +41,15 @@ public:
         float radius;
         if (ugol_a == 0) {
             radius = (storona_a + storona_c - storona_b) / 2;
-            cout << "Ðàäèóñ âïèñàííîé îêðóæíîñòè: " << radius << endl;
+            cout << "ÄÅ•Ã¤ÄÃ³Å„ Ã¢ÄÄÅ„Å•Ã­Ã­Ã®Ã© Ã®Ä™Ä‘Ã³Ä‡Ã­Ã®Å„ÅˆÄ: " << radius << endl;
         }
         else if (ugol_b == 0) {
             radius = (storona_a + storona_b - storona_c) / 2;
-            cout << "Ðàäèóñ âïèñàííîé îêðóæíîñòè: " << radius << endl;
+            cout << "ÄÅ•Ã¤ÄÃ³Å„ Ã¢ÄÄÅ„Å•Ã­Ã­Ã®Ã© Ã®Ä™Ä‘Ã³Ä‡Ã­Ã®Å„ÅˆÄ: " << radius << endl;
         }
         else if (ugol_c == 0) {
             radius = (storona_b + storona_c - storona_a) / 2;
-            cout << "Ðàäèóñ âïèñàííîé îêðóæíîñòè: " << radius << endl;
+            cout << "ÄÅ•Ã¤ÄÃ³Å„ Ã¢ÄÄÅ„Å•Ã­Ã­Ã®Ã© Ã®Ä™Ä‘Ã³Ä‡Ã­Ã®Å„ÅˆÄ: " << radius << endl;
         }
 
     }
@@ -60,15 +60,15 @@ public:
         float radius;
         if (ugol_a == 0) {
             radius = med_BC;
-            cout << "Ðàäèóñ ðïèñàííîé îêðóæíîñòè: " << radius << endl;
+            cout << "ÄÅ•Ã¤ÄÃ³Å„ Ä‘ÄÄÅ„Å•Ã­Ã­Ã®Ã© Ã®Ä™Ä‘Ã³Ä‡Ã­Ã®Å„ÅˆÄ: " << radius << endl;
         }
         else if (ugol_b == 0) {
             radius = med_AC;
-            cout << "Ðàäèóñ îïèñàííîé îêðóæíîñòè: " << radius << endl;
+            cout << "ÄÅ•Ã¤ÄÃ³Å„ Ã®ÄÄÅ„Å•Ã­Ã­Ã®Ã© Ã®Ä™Ä‘Ã³Ä‡Ã­Ã®Å„ÅˆÄ: " << radius << endl;
         }
         else if (ugol_c == 0) {
             radius = med_AB;
-            cout << "Ðàäèóñ îïèñàííîé îêðóæíîñòè: " << radius << endl;
+            cout << "ÄÅ•Ã¤ÄÃ³Å„ Ã®ÄÄÅ„Å•Ã­Ã­Ã®Ã© Ã®Ä™Ä‘Ã³Ä‡Ã­Ã®Å„ÅˆÄ: " << radius << endl;
         }
     }
 };
